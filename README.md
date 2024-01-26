@@ -18,29 +18,29 @@ It then clones repos for command-line suggestions, syntax highlighting, and the 
 ## To create your own dotfiles repo from this repo
 
 1. Create a new public repository on GitHub, owned by your user account, called dotfiles.
-2. In a terminal, navigate to the directory in which you keep your local copies of git repos.
-3. Run the command:
+1. In a terminal, navigate to the directory in which you keep your local copies of git repos.
+1. Run the command:
    ```
    git clone --bare https://github.com/hubwriter/dotfiles.git
    ```
-5. Change into the new directory that was created:
+1. Change into the new directory that was created:
    ```
    cd dotfiles.git
    ```
-7. Run:
+1. Run:
    ```
    git push --mirror https://github.com/YOUR-NAME/dotfiles.git
    ```
-8. Step back out of the new directory:
+1. Step back out of the new directory:
    ```
    cd ..
    ```
-9. Delete directory:
+1. Delete directory:
    ```
    rm -rf dotfiles.git
    ```
-10. To work on your dotfiles repo locally, clone it:
-    ```
-    git clone https://github.com/YOUR-NAME/dotfiles.git
-    ```
+1. To work on your dotfiles repo locally, clone it:
+   ```
+   git clone https://github.com/YOUR-NAME/dotfiles.git
+   ```
 
