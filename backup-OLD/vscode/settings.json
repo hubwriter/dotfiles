@@ -1,0 +1,50 @@
+{
+   // "terminal.integrated.shell.linux": "zsh",  // Note: this setting is now deprecated in favour of defaultProfile
+   // Set default shell (bash by default and always initially bash in the VS Code web client)
+   "terminal.integrated.defaultProfile.osx": "bash",
+   "terminal.integrated.defaultProfile.linux": "bash",
+   "terminal.integrated.defaultProfile.windows": "bash",
+   "cSpell.language": ",en",
+   "files.exclude": {
+      "**/translations": true
+   },
+   "workbench.editor.enablePreview": false,
+   "workbench.editor.enablePreviewFromQuickOpen": false,
+   "workbench.colorCustomizations": {
+      "editor.selectionBackground": "#83269b",
+      "editor.selectionHighlightBackground": "#817878",
+      "editor.findMatchBackground": "#00cc44a8",
+      "editor.findMatchHighlightBackground": "#ff7b00a1",
+      "editorCursor.foreground": "#ffff00",
+      "terminalCursor.foreground": "#ffff00",
+      "tab.activeBackground": "#83269b",
+      "tab.activeForeground": "#ffffff",
+      "tab.inactiveForeground": "#ff0000",
+      "tab.unfocusedActiveForeground": "#1aff25",
+      "tab.unfocusedInactiveForeground": "#ffa601",
+      "tab.hoverForeground": "#ffffff",
+      "tab.hoverBackground": "#00cc44a8",
+      "tab.unfocusedHoverForeground": "#ff24a4",
+      "breadcrumb.background": "#23114d",
+      "titleBar.activeBackground":"#0e4a13",
+      "titleBar.inactiveBackground":"#0e4a13",
+      "statusBar.background": "#0e4a13",
+      "statusBarItem.remoteBackground": "#ff8800",
+      "statusBarItem.remoteForeground": "#000000",
+      "list.hoverBackground": "#364c37",
+      "list.activeSelectionBackground": "#28532a",
+      "list.inactiveSelectionBackground": "#364c37",
+      "activityBar.background": "#1b6221",
+      "activityBar.foreground": "#ffffff",
+      "activityBar.inactiveForeground": "#9d98b3",
+      "activityBarBadge.background": "#e81c1c",
+      "activityBarBadge.foreground": "#000000",
+      "activityBar.activeBorder": "#ffffff",
+      "activityBar.activeBackground": "#0e4a13",
+      "activityBar.activeFocusBorder": "#ffffff"
+   },
+   // Theme:
+   "workbench.colorTheme": "Visual Studio Dark",
+   "workbench.iconTheme": "ayu",
+   "window.zoomLevel": -1
+}
