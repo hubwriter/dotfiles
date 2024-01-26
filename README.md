@@ -40,7 +40,7 @@ It then clones repos for command-line suggestions, syntax highlighting, and the 
    rm -rf dotfiles.git
    ```
 10. To work on your dotfiles repo locally, clone it:
-   ```
-   git clone https://github.com/YOUR-NAME/dotfiles.git
-   ```
+    ```
+    git clone https://github.com/YOUR-NAME/dotfiles.git
+    ```
 
