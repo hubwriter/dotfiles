@@ -15,3 +15,32 @@ cp run.sh ~/run.sh                   # add the script for installing extensions
 
 It then clones repos for command-line suggestions, syntax highlighting, and the powerlevel10k theme for zsh. And finally it writes the `.zshrc` and `.p10k.zsh` files to the codespace (overwriting the existing `.zshrc` file). 
 
+## To create your own dotfiles repo from this repo
+
+1. Create a new public repository on GitHub, owned by your user account, called dotfiles.
+2. In a terminal, navigate to the directory in which you keep your local copies of git repos.
+3. Run the command:
+   ```
+   git clone --bare https://github.com/hubwriter/dotfiles.git
+   ```
+5. Change into the new directory that was created:
+   ```
+   cd dotfiles.git
+   ```
+7. Run:
+   ```
+   git push --mirror https://github.com/YOUR-NAME/dotfiles.git
+   ```
+8. Step back out of the new directory:
+   ```
+   cd ..
+   ```
+9. Delete directory:
+   ```
+   rm -rf dotfiles.git
+   ```
+10. To work on your dotfiles repo locally, clone it:
+   ```
+   git clone https://github.com/YOUR-NAME/dotfiles.git
+   ```
+
