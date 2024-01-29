@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # If we are in a codespace:
-
 if ("$CODESPACES" == "true") then
    # Copy the vscode settings into the codespace:
    cp vscode/settings.json ~/.vscode-remote/data/Machine/settings.json
