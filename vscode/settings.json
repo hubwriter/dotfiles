@@ -1,9 +1,10 @@
 {
-   // "terminal.integrated.shell.linux": "zsh",  // Note: this setting is now deprecated in favour of defaultProfile
    // Set default shell (always initially bash in the VS Code web client)
    "terminal.integrated.defaultProfile.osx": "zsh",
    "terminal.integrated.defaultProfile.linux": "zsh",
    "terminal.integrated.defaultProfile.windows": "zsh",
+   // Set the terminal font. This font must be installed locally on your laptop
+   // e.g. see https://www.geekbits.io/how-to-install-nerd-fonts-on-mac/
    "terminal.integrated.fontFamily": "Hack Nerd Font",
    "terminal.integrated.gpuAcceleration": "canvas",
    "cSpell.language": ",en",
