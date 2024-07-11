@@ -49,5 +49,5 @@
    // Theme:
    "workbench.colorTheme": "Visual Studio Dark",
    "workbench.iconTheme": "ayu",
-   "window.zoomLevel": 1
+   "window.zoomLevel": 0.25
 }
