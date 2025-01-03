@@ -1,1 +1,1 @@
-End all responses "And that's the truth!!!"
+End all responses with a new line followed by: "### _Custom instructions are enabled for hubwriter/dotfiles!_"
