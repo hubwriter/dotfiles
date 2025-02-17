@@ -9,7 +9,7 @@ if ("$CODESPACES" == "true") then
    cp -R .scripts ~/.scripts            # .scripts directory contains the branchlister scripts
    cp run.sh ~/run.sh                   # add the script for installing extensions
 
-   zshrc() {
+   configure-terminal-format() {
       echo "==========================================================="
       echo "             cloning zsh-autosuggestions                   "
       echo "-----------------------------------------------------------"
@@ -39,5 +39,9 @@ if ("$CODESPACES" == "true") then
       echo "==========================================================="
    }
 
-   zshrc
+   configure-terminal-format  # run the above function
+
+   chsh -s $(which zsh)  # Change the default shell to zsh for the current user
+   exec zsh              # Change the current shell to zsh
+   
 fi
