@@ -40,8 +40,5 @@ if ("$CODESPACES" == "true") then
    }
 
    configure-terminal-format  # run the above function
-
-   chsh -s $(which zsh)  # Change the default shell to zsh for the current user
-   exec zsh              # Change the current shell to zsh
    
 fi
